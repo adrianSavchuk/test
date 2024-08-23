@@ -1,0 +1,27 @@
+.appContainer {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo,
+.user {
+    max-width: 50px;
+}
+
+.description {
+    flex: 1;
+    text-align: center;
+}
+
+.mapContainer {
+    flex: 1;
+    min-height: 400px;
+    overflow: auto;
+}
